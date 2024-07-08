@@ -1,0 +1,15 @@
+Pure/Global_Theory:
+	val dest_thm_names: theory -> (Proofterm.thm_id * Thm_Name.T) list
+		Get a list of theorem id * (theorem name * position) in theory
+			Proofterm.thm_id: return id of theorem
+			Thm_name.T: string * int, name and occurence of theorem (fact)
+
+	val get_thm_name: theory -> Thm_Name.T * Position.T -> thm
+		From theory (object) and theorem name with position, return theorem (object)
+			Position.T: "Source positions starting from 1"
+
+
+Pure/Thm:
+	val full_prop_of: thm -> term
+		Get the term representation of the theorem (object)
+		

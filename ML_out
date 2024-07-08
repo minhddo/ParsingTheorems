@@ -1,0 +1,60 @@
+<tree type="App" >
+	<tree type="Const" name="HOL.Trueprop" type_signature="Type" type_name="fun" ></tree>
+	<tree type="App" >
+	<tree type="App" >
+	<tree type="Const" name="HOL.eq" type_signature="Type" type_name="fun" ></tree>
+	<tree type="App" >
+	<tree type="Const" name="HOL.Not" type_signature="Type" type_name="fun" ></tree>
+	<tree type="App" >
+	<tree type="App" >
+	<tree type="Const" name="HOL.eq" type_signature="Type" type_name="fun" ></tree>
+	<tree type="Var" name="t" var_index="0" type_signature="Type" type_name="Tree.tree" ></tree>
+</tree>
+	<tree type="Const" name="Tree.tree.Leaf" type_signature="Type" type_name="Tree.tree" ></tree>
+</tree>
+</tree>
+</tree>
+	<tree type="App" >
+	<tree type="Const" name="HOL.Ex" type_signature="Type" type_name="fun" ></tree>
+	<tree type="Abs" var_name="l" type_signature="Type" type_name="Tree.tree" >
+	<tree type="App" >
+	<tree type="Const" name="HOL.Ex" type_signature="Type" type_name="fun" ></tree>
+	<tree type="Abs" var_name="a" type_signature="TVar" type_name="'a" type_index="0" >
+	<tree type="App" >
+	<tree type="Const" name="HOL.Ex" type_signature="Type" type_name="fun" ></tree>
+	<tree type="Abs" var_name="n" type_signature="TVar" type_name="'b" type_index="0" >
+	<tree type="App" >
+	<tree type="Const" name="HOL.Ex" type_signature="Type" type_name="fun" ></tree>
+	<tree type="Abs" var_name="r" type_signature="Type" type_name="Tree.tree" >
+	<tree type="App" >
+	<tree type="App" >
+	<tree type="Const" name="HOL.eq" type_signature="Type" type_name="fun" ></tree>
+	<tree type="Var" name="t" var_index="0" type_signature="Type" type_name="Tree.tree" ></tree>
+</tree>
+	<tree type="App" >
+	<tree type="App" >
+	<tree type="App" >
+	<tree type="Const" name="Tree.tree.Node" type_signature="Type" type_name="fun" ></tree>
+	
+</tree>
+	<tree type="App" >
+	<tree type="App" >
+	<tree type="Const" name="Product_Type.Pair" type_signature="Type" type_name="fun" ></tree>
+	
+</tree>
+	
+</tree>
+</tree>
+	
+</tree>
+</tree>
+</tree>
+</tree>
+</tree>
+</tree>
+</tree>
+</tree>
+</tree>
+</tree>
+</tree>
+</tree>

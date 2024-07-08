@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<tree type="file_input" pos="0" length="47">
+	<tree type="simple_stmt" pos="0" length="6">
+		<tree type="expr_stmt" pos="0" length="5">
+			<tree type="name" pos="0" length="1" label="a"/>
+			<tree type="operator" pos="2" length="1" label="="/>
+			<tree type="number" pos="4" length="1" label="1"/>
+		</tree>
+	</tree>
+	<tree type="simple_stmt" pos="6" length="6">
+		<tree type="expr_stmt" pos="6" length="5">
+			<tree type="name" pos="6" length="1" label="b"/>
+			<tree type="operator" pos="8" length="1" label="="/>
+			<tree type="number" pos="10" length="1" label="2"/>
+		</tree>
+	</tree>
+	<tree type="funcdef" pos="13" length="34">
+		<tree type="name" pos="17" length="7" label="get_sum"/>
+		<tree type="parameters" pos="24" length="6">
+			<tree type="param" pos="25" length="2">
+				<tree type="name" pos="25" length="1" label="a"/>
+				<tree type="operator" pos="26" length="1" label=","/>
+			</tree>
+			<tree type="param" pos="28" length="1">
+				<tree type="name" pos="28" length="1" label="b"/>
+			</tree>
+		</tree>
+		<tree type="suite" pos="31" length="16">
+			<tree type="simple_stmt" pos="36" length="11">
+				<tree type="return_stmt" pos="36" length="10">
+					<tree type="arith_expr" pos="43" length="3">
+						<tree type="name" pos="43" length="1" label="a"/>
+						<tree type="operator" pos="44" length="1" label="+"/>
+						<tree type="name" pos="45" length="1" label="b"/>
+					</tree>
+				</tree>
+			</tree>
+		</tree>
+	</tree>
+</tree>
+

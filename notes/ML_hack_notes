@@ -1,0 +1,4 @@
+File out
+	val out_file = TextIO.openOut("ML_out.txt");
+	TextIO.output (out_file, "abc");
+	TextIO.closeOut out_file;

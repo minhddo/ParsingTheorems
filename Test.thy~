@@ -1,0 +1,39 @@
+theory Test
+  imports Main
+begin
+ML_file \<open>test.ML\<close>
+(*ML_file \<open>../Versions/Isabelle2023/src/HOL/Tools/SMT/smt_systems.ML\<close>*)
+(*ML_file "../Versions/Isabelle2023/src/Pure/term_xml.ML"*)
+ML \<open>
+(*val test_term = fst (List.nth (Converter.find_all_theorems @{theory LTE}, 0));*)
+val test_term = @{term "\<lambda>x y z. x"};
+(*open Term_XML;*)
+(*val {constants, ...} = Consts.dest (Proof_Context.consts_of @{context});*)
+(*val consts = Consts.make_consts (Name_Space.make_table constants, Symtab.empty, Symtab.empty);*)
+(*val encoded = Encode.term (Proof_Context.consts_of @{context});
+Encode.term_raw encoded;*)
+(*val the_typ = Term.type_of test_term;
+val xmlz = Converter.convert_Term test_term;
+
+
+val out_file = TextIO.openOut "ML_out";
+TextIO.output (out_file, xmlz);
+TextIO.closeOut out_file;*)
+\<close>                  
+
+datatype mynat = Zero | Suc mynat
+fun add :: "mynat \<Rightarrow> mynat \<Rightarrow> mynat" where
+"add Zero n = n" |
+"add (Suc m) n = Suc (add m n)"
+
+lemma addz: "add m Zero = m"
+  apply(induction m)
+  oops
+lemma unsat: "\<not>((A \<or> B) \<and> (C\<or>\<not>A)\<and>(\<not>C)\<and>(\<not>B))"
+  
+
+  done      
+
+   
+
+end
